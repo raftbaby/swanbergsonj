@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!--build:css css/main.css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+<!-- endbuild --> 
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css"/>
+
+    <title>Swanbergs On J</title>
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="img/largelogo.png" height="300">
+                </div>
+                <div class="col">
+                    <h2>Your local Hawaiian shirt shop</h2>
+                </div>
+            </div>
+        </div>  
+    </header>
+
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/flower.png" height="60" width="60" /></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class= "collapse navbar-collapse" id="mainNavBar">
+                <ul class="navbar-nav">
+                    <!--NAV/TAB LINKS-->
+                    <li class="nav-item"> <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab">Home</a></li>
+                    <li class="nav-item"> <a class="nav-link active" id="shirts-tab" data-toggle="tab" href="#shirts" role="tab">Shirts</a></li>
+                    <li class="nav-item"> <a class="nav-link" id="hats-tab" data-toggle="tab" href="#hats" role="tab">Hats</a></li>
+                    <li class="nav-item"> <a class="nav-link" id="shoes-tab" data-toggle="tab" href="#shoes" role="tab">Shoes</a></li>
+                    <li class="nav-item"> <a class="nav-link" id="tiki-tab" data-toggle="tab" href="#tiki" role="tab">Tiki</a></li>
+                    <li class="nav-item"> <a class="nav-link" id="gifts-tab" data-toggle="tab" href="#gifts" role="tab">Gifts</a></li>
+                </ul>
+<!--login button
+                <span class="navbar-text ml-auto">
+                    <a id ="loginButton">
+                    <i class="fa fa-sign-in"></i> Login</a>
+            </span> -->
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class= "row row-content align-items-center">
+            <div class= "col">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade" id="home" role="tabpanel" >A unique clothing store featuring Hawaiian, Aloha and casual shirts; we have a wide selection of traditional and contemporary Hawaiian CDs, 
+                        plus world music from IZ to Taj Mahal to Gabby. We have a wide variety of Aloha gifts, classic baseball hats and much more. 
+                        Our Aloha accessories range from calendars to hula dancer statuettes to a complete selection of tiki accessories from Tiki 
+                        Farm and other fine companies. We stock the finest Hawaiian shirts including: Reyn Spooner, Tori Richard, Iolani, Kahala, Nat Nast, Paradise Found and much more.</div>
+                    <div class="tab-pane fade show active" id="shirts" role="tabpanel"> 
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src=".../100px180/" alt="Description of Shirt">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Shirt 1</h5>
+                                      <p class="card-text">Description of Shirt</p>
+                                      <a href="#" class="btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src=".../100px180/" alt="Description of Shirt">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Shirt 2</h5>
+                                      <p class="card-text">Description of Shirt</p>
+                                      <a href="#" class="btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src=".../100px180/" alt="Description of Shirt">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Shirt 3</h5>
+                                      <p class="card-text">Description of Shirt</p>
+                                      <a href="#" class="btn btn-primary">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src=".../100px180/" alt="Description of Shirt">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Shirt 4</h5>
+                                        <p class="card-text">Description of Shirt</p>
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src=".../100px180/" alt="Description of Shirt">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Shirt 5</h5>
+                                        <p class="card-text">Description of Shirt</p>
+                                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                                    </div>
+                              </div>
+                        </div>
+                            <div class="col-4"></div>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src=".../100px180/" alt="Description of Shirt">
+                                <div class="card-body">
+                                  <h5 class="card-title">Shirt 6</h5>
+                                  <p class="card-text">Description of Shirt</p>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                              </div>
+                        </div>
+                            
+                        </div>                        
+                    </div>
+                    <div class="tab-pane fade" id="hats" role="tabpanel" >Hat selection</div>
+                    <div class="tab-pane fade" id="shoes" role="tabpanel" >shoes</div>
+                    <div class="tab-pane fade" id="tiki" role="tabpanel" >tiki</div>
+                    <div class="tab-pane fade" id="gifts" role="tabpanel" >gifts</div>
+                </div>
+            </div>
+        </div>  
+    </div>
+      
+
+
+    
+    <footer>
+        <div class="container">
+            <div class="row">   
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+     
+                </div>
+                <div class="col-sm-4">
+                    Tel: (916) 447-6284<br />
+                    Address: 2316 J St<br />Sacramento, CA 95816
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

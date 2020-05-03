@@ -4,11 +4,31 @@ font {
     font-family: "tahoma", "trebuchet ms";  
 }
 
-H1 {}
+H1 {
+    font-size: 64;
+    color: white;
+    margin-top: 90px;
+}
 
-H2 {}
+H2 {
+    
+    font-size: 64;
+    color: white;
+}
 
 .jumbotron {
-    background-color: darkgoldenrod;
+    background-color: #dcb95f;
+    margin:0;
+    padding: 0px;
+    
+}
 
+.navbar{
+    background-color: #76521e;
+    
+}
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }
