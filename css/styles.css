@@ -1,4 +1,6 @@
-body{}
+body{
+
+}
 
 font {
     font-family: "tahoma", "trebuchet ms";  
@@ -7,7 +9,7 @@ font {
 H1 {
     font-size: 64;
     color: white;
-    margin-top: 90px;
+   
 }
 
 H2 {
@@ -18,17 +20,32 @@ H2 {
 
 .jumbotron {
     background-color: #dcb95f;
-    margin:0;
+    margin:0px;
     padding: 0px;
-    
+   
 }
 
 .navbar{
     background-color: #76521e;
-    
+    margin-bottom: 40px;    
 }
 .tab-content {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
+}
+.inventory-container {
+    padding:30px;
+}
+.card-img-top{
+    height: 300px;
+    width: 200px;
+    align-self: center;    
+}
+.footer-container{
+    margin-top: 30px;
+}
+
+.card{
+    padding: 15px;
 }
