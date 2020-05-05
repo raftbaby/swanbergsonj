@@ -30,7 +30,7 @@
     </header>
 
 <!--nav bar-->
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="img/flower.png" height="60" width="60" /></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNavBar">
@@ -52,6 +52,57 @@
 <!--breadcrumb-->
 
 
+<!-- The Modal -->
+<div id="modal" class="modal">
+
+    <div class="modal-content">
+		<!-- Header -->
+		<div class="modal-header">
+                <h3>Add to Cart</h3>
+                <span class="close">&times</span>
+				</div>
+        <!-- Body -->
+        <div class="modal-container">
+            <div class="row">
+                <div class="col">
+                    <img class= "modal-photo" src="img/defaultphoto.png" alt="Description of Shirt">
+                </div>
+                <div class="col">
+                    <H5>Item Name</H5>
+                    <p> Description of item, brand, material</p>
+                    <p>Item # 00000</p>
+                    <h4>Color</h4> 
+                    <div>
+                        <button type="button" class="btn btn-primary" value="blue">      </button>
+                        <button type="button" class="btn btn-success" value="green">      </button>
+                        <button type="button" class="btn btn-dark" value="black">      </button>
+                        <button type="button" class="btn btn-danger" value="red">      </button>
+
+                    </div>
+                    <h4>Quantity</h4>
+                    <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Quantity
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" value="1">1</a>
+                          <a class="dropdown-item" value="2">2</a>
+                          <a class="dropdown-item" value="3">3</a>
+                          <a class="dropdown-item" value="4">4</a>
+                          <a class="dropdown-item" value="5">5</a>
+                          <a class="dropdown-item" value="6">6</a>
+                          <a class="dropdown-item" value="7">7</a>
+                          <a class="dropdown-item" value="8">8</a>
+                        </div>
+                    </div>
+                    <h3>Price</h3>
+                    <p> $0.00</p>
+                    <button type="button" class="btn btn-secondary" value="addButton">Add</button>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
 
 
 <!--inventory table-->
@@ -63,7 +114,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Shirt 1</h5>
                         <p class="card-text">Description of Shirt</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <button class="addButton" id="detail" name="shirt1">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -73,7 +124,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Shirt 2</h5>
                         <p class="card-text">Description of Shirt</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <button class="addButton" id="detail" name="shirt2">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -83,7 +134,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Shirt 3</h5>
                         <p class="card-text">Description of Shirt</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <button class="addButton" id="detail" name="shirt3">Add to cart</button>
                     </div>
                 </div>
             </div>            
@@ -93,7 +144,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Shirt 4</h5>
                         <p class="card-text">Description of Shirt</p>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <button class="addButton" id="detail" name= "shirt4">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -103,7 +154,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Shirt 5</h5>
                     <p class="card-text">Description of Shirt</p>
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                    <button class="addButton" id="detail" name="shirt5">Add to cart</button>
                 </div>
             </div>
         </div>
@@ -113,7 +164,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Shirt 6</h5>
                     <p class="card-text">Description of Shirt</p>
-                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                    <button class="addButton" id="detail" name="shirt6">Add to cart</button>
                 </div>
             </div>
         </div>
@@ -145,6 +196,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
